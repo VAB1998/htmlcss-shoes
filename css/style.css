@@ -49,6 +49,8 @@ div.section_content> h1{
     /* Text: Color and Size */
     color: yellow;
     font-size: 3em;
+    text-transform: uppercase;
+
 }
 
 
