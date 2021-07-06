@@ -5,13 +5,12 @@
 }
 
 nav{
-    padding: 20px;
+    margin-top: 45px;
     /* Position */
     position: fixed;
     z-index: 1;
     right: 10px;
 }
-
 
 
 li{
@@ -21,11 +20,12 @@ li{
 nav> li> a{
     /* Style and Shape */
     color: white;
+    font-size: 2em;
     text-decoration: none;
     list-style: none;
     background-color: #00000082;
-    padding: 5px 10px;
-    border-radius: 15px;
+    padding: 17px 28px;
+    border-radius: 35px;
     margin: 10px;
 } 
 
