@@ -12,6 +12,12 @@ nav{
     right: 10px;
 }
 
+
+
+li{
+    display: inline-block;
+}
+
 nav> li> a{
     /* Style and Shape */
     color: white;
@@ -21,11 +27,10 @@ nav> li> a{
     padding: 5px 10px;
     border-radius: 15px;
     margin: 10px;
-  
 } 
 
-li{
-    display: inline-block;
+li> a:hover {
+    border: 2px solid white;
 }
 
 section{
