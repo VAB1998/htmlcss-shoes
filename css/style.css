@@ -3,3 +3,43 @@
     margin: 0;
     padding: 0;
 }
+
+nav{
+    padding: 20px;
+    /* Position */
+    position: fixed;
+    z-index: 1;
+    right: 10px;
+}
+
+nav> li> a{
+    /* Style and Shape */
+    text-decoration: none;
+    list-style: none;
+    background-color: yellowgreen;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 10px;
+  
+} 
+
+li{
+    display: inline-block;
+}
+
+section{
+    height: 100vh;
+}
+
+
+
+
+
+
+#section_1{
+    background-color: tomato;
+}
+
+#section_2{
+    background-color: blue;
+}
