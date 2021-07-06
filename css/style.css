@@ -14,9 +14,10 @@ nav{
 
 nav> li> a{
     /* Style and Shape */
+    color: white;
     text-decoration: none;
     list-style: none;
-    background-color: yellowgreen;
+    background-color: #00000082;
     padding: 5px 10px;
     border-radius: 15px;
     margin: 10px;
@@ -33,7 +34,7 @@ section{
 }
 
 
-.section_content{
+div.section_content{
     /* Position */
     position: absolute;
     top: 50%;
@@ -44,14 +45,24 @@ section{
 }
 
 
-
+div.section_content> h1{
+    /* Text: Color and Size */
+    color: yellow;
+    font-size: 3em;
+}
 
 
 /* Section Colors */
+
 #section_1{
     background-color: tomato;
 }
 
 #section_2{
-    background-color: blue;
+    background-color: #03a9f4;
 }
+
+#section_3{
+    background-color: #ff9800;
+}
+
