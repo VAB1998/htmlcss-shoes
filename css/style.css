@@ -35,6 +35,7 @@ section{
 
 
 div.section_content{
+    width: 60vw;
     /* Position */
     position: absolute;
     top: 50%;
@@ -44,6 +45,10 @@ div.section_content{
     text-align: center;
 }
 
+
+div.section_content> img{
+    width: 100%;
+}
 
 div.section_content> h1{
     /* Text: Color and Size */
